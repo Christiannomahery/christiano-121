@@ -1,0 +1,522 @@
+h3 {
+  color: yellow;
+}
+
+* {
+  font-family: "nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+*::selection {
+  background: yellow;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+html ::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #222;
+}
+
+html ::-webkit-scrollbar-trumb {
+  background: var(yellow);
+}
+
+body {
+  background: #111;
+  overflow: hidden;
+  padding-left: 35rem;
+}
+
+#menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #333;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+header img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 0.7rem solid yellow;
+}
+
+.name {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.post {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+ul li a {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #333;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+ul li a i {
+  color: yellow;
+}
+
+ul li a:hover {
+  background: var(yellow);
+}
+
+h3 {
+  color: yellow;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 4rem;
+}
+.box-container .min {
+  width: 25rem;
+  margin: 4rem 1rem;
+  border-left: 0.2rem solid #fff;
+  position: relative;
+}
+.box-container .min span {
+  font-size: 1.3rem;
+  background: green;
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+  margin-left: 0.7cm;
+}
+.box-container .min h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 1.5rem;
+  margin-left: 0.2rem;
+}
+.box-container .min p {
+  font-size: 1.5rem;
+  color: #eee;
+  padding-left: 1.5rem;
+}
+.box-container .min i {
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background: yellow;
+  margin-right: 1rem;
+}
+
+.homme {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 1.5rem;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+h1 span {
+  color: yellow;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0.5rem;
+}
+
+.btn {
+  order: 2px solid #fff;
+  border-radius: 15px;
+  padding: 0.7rem 3rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.btn i {
+  padding: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background: yellow;
+}
+
+.heading {
+  text-align: center;
+  margin: 0.6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 1rem solid #fff;
+  color: #fff;
+}
+
+.heading span {
+  color: var(blue);
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.about .info {
+  flex: 1 1 48rem;
+  padding: 2rem;
+  padding-left: 6rem;
+}
+.about .info h3 {
+  font-size: 2rem;
+}
+.about .info h2 {
+  font-size: 2rem;
+  color: yellowgreen;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+.about .info h2 span {
+  color: #fff;
+}
+
+.row.counter {
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 20rem;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  float: left;
+}
+.box span {
+  font-size: 4rem;
+  color: yellow;
+}
+.box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.bix {
+  width: 20rem;
+  height: 1.8cm;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  float: left;
+}
+.bix span {
+  font-size: 4rem;
+  color: yellow;
+}
+.bix h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  margin: 0.6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 1rem solid #fff;
+  color: #fff;
+}
+
+.heading span {
+  color: var(blue);
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.about .info {
+  flex: 1 1 48rem;
+  padding: 2rem;
+  padding-left: 6rem;
+}
+.about .info h3 {
+  font-size: 2rem;
+}
+.about .info h2 {
+  font-size: 2rem;
+  color: yellowgreen;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+.about .info h2 span {
+  color: #fff;
+}
+
+.row.counter {
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 20rem;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  float: left;
+}
+.box span {
+  font-size: 4rem;
+  color: yellow;
+}
+.box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.bix {
+  width: 20rem;
+  height: 1.8cm;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  float: left;
+}
+.bix span {
+  font-size: 4rem;
+  color: yellow;
+}
+.bix h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card{
+  width: 225px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.);
+  margin: 20px;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .card-content{
+    padding: 16px;
+  }
+  h6{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  h5{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  p{
+    font-size: #fff;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #333;
+  }
+  .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+
+  }
+  
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card{
+  width: 225px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.);
+  margin: 20px;
+  img{
+    width: 100%;
+    height: 6cm;
+
+  }
+  .card-content{
+    padding: 16px;
+  }
+  h6{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  h5{
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  p{
+    font-size: #fff;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #333;
+  }
+  .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+
+  }
+}
+}
+.riw{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.riw.content{
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+.riw.form{
+  flex: 1 1 45rem;
+  padding: 2rem;
+  padding-bottom: 4rem;margin: 2rem;
+}
+span{
+  color: yellow;
+}
+.btn{
+  background: #3333;
+  color: #fff;
+  border-radius: 12px;
+  margin-left: 15cm;
+}
+input{
+  padding: .5rem;
+  margin: 1rem;
+  background: purple;
+  color: #fff;
+  text-transform: none;
+  width: 100%;
+  border-radius: 2px;
+}.message{
+  height: 15rem;
+  resize: none;
+
+}
+i{
+  font-size: 15px;
+  color:yellow
+  ;
+  
+}
+h7{
+  font-size: 35px;
+  color: yellow;
+}
+h4{
+font-size: 15px;
+color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

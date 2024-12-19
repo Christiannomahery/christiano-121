@@ -1,0 +1,51 @@
+header{
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column ;
+    text-align: center;
+    img{
+       @include image
+    }
+}
+
+.name{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.post{
+    font-size: 2rem;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul{
+  list-style: none;
+  padding: 1rem 3rem;
+}
+ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    i{
+        color: yellow;
+    }
+}
+ul li a:hover{
+    background: var(yellow)
+}
+h3{
+    color: yellow;
+}
+

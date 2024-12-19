@@ -1,0 +1,45 @@
+*{
+    font-family:  'nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+*::selection{
+    background: yellow;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+    font-size: 62.5%;
+    overflow: hidden;
+}
+html ::-webkit-scrollbar{ 
+    width: 1.4rem;
+}
+html ::-webkit-scrollbar-track{ 
+    background: #222;
+}
+html ::-webkit-scrollbar-trumb{ 
+    background: var(yellow);
+}
+body{
+    background:#111;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+#menu{
+    position: fixed;
+    top: 2rem;right: 2rem;
+    background: #333;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+    
+}

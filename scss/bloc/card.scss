@@ -1,0 +1,38 @@
+
+.homme{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 1.5rem;
+    justify-content: center;
+}
+h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+h1{
+    font-size: 5rem;
+   color: #fff;
+   span{
+    color: yellow;
+   }
+}
+section{
+    min-height: 100vh;
+    padding: 2rem;
+
+}
+p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0.5rem;
+}
+.btn{
+@include bouton;
+}
+.btn i{
+    padding: 0.5rem;font-size: 1.8rem;
+}
+.btn:hover{
+    background: yellow;
+}
